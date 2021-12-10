@@ -1,0 +1,15 @@
+{
+  "name": "message-bot",
+  "version": "1.0.0",
+  "description": "message bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd client && npm start\" \"cd server && npm start\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rohit",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.4.0"
+  }
+}
