@@ -1,6 +1,11 @@
 # Message Bot
 ### Commands to setup application
 
+#### Setup
+* git clone https://github.com/rohitp20092/message-bot.git
+* cd message-bot
+* npm install
+
 #### Client App
 * cd client
 * yarn install
@@ -10,5 +15,5 @@
 * yarn install
 
 ### Run app
-* cd ..
+* cd message-bot
 * npm start
